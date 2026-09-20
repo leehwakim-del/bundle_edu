@@ -28,7 +28,7 @@ targets:
       catalog: training
       schema: ${workspace.current_user.short_name}
     permissions:
-    - group_name: users
+    - group_name: Users
       level: CAN_MANAGE
   prod:
     mode: production
