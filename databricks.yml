@@ -28,8 +28,8 @@ targets:
       catalog: training
       schema: ${workspace.current_user.short_name}
     permissions:
-    - group_name: Users
-      level: CAN_MANAGE
+    - group_name: users
+      level: CAN_VIEW
   prod:
     mode: production
     workspace:
